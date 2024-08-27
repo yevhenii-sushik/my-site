@@ -1,0 +1,42 @@
+{
+    "home": "Home",
+    "blog":"Blog",
+    "articles":"Articles",
+
+    "itsme":"Hi, it's me",
+    "about": "About",
+    "project": "Project",
+    "contact": "Contact",
+
+    "frontenddeveloper":"Front-End Developer",
+    "lookingfor":"Looking for",
+    "lookingforword0":"Creative?",
+    "lookingforword1":"Innovative?",
+    "lookingforword2":"Skilled?",
+    "lookingforword3":"Proactive?",
+    "lookingforword4":"Ambitious?",
+
+    "tachsteack":"Tech steack",
+
+    "aboutmetitle":"ABOUT ME",
+    "aboutmetitlemini":"Learn more about my skills and experience in Front-end development",
+    "aboutmetext":"Hello! My name is Yevhenii, and I specialize in Front-end development. My experience includes working with modern technologies and frameworks such as React, Vue.js, and Angular. I always strive to create intuitive and visually appealing web interfaces that provide the best user experience.",
+
+    "projectstitle":"PROJECTS",
+    "projectstitlemini":"Check out some of my latest and best projects",
+    "itschedule":"Your faithful companion in organizing the educational process! Here you will find a class schedule with a list of teachers and useful tools for successful learning. Don't miss the opportunity to simplify your studies! Academic success is getting closer with IT Schedule!",
+    "breammusic":"Bream-music is a modern music player featuring albums in various genres, with a bream fish as the main character. The player allows you to listen to your favorite music from any genre, create playlists, and discover new artists. Bream-music is your reliable companion in the world of music!",
+    "lemongrass":"|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|",
+    "saporevino":"|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|",
+    
+    "contactstitle":"CONTACTS",
+    "contactstitlemini":"You can contact me",
+    "phonenumber":"Phone number",
+    "email":"Email",
+    "location":"Location",
+    "ukraine":"Ukraine",
+    "allmysocialmedia":"All my social media  ⟩",
+
+    "rights":"© 2024 All rights reserved"
+}
+

@@ -1,0 +1,878 @@
+@media (min-width: 1200px) {
+
+  .top-seporator-its-me {
+    width: 100%;
+    height: 28vh;
+  }
+       
+  .down-seporator-its-me {
+    width: 100%;
+    height: 150px;
+  }
+
+  .medium-seporator-its-me {
+    width: 100%;
+    height: 150px;
+  }
+
+  .container-its-me {
+    display: flex;
+    align-items: start;
+    justify-content: right;
+    margin-left: none;
+    width: 1080px;
+  }
+  
+
+
+.profile-pic img {
+    border-radius: 30%;
+    width: 400px;
+    height: 400px;
+    text-align: left;
+}
+  
+
+.content {
+    text-align: left;
+    margin-left: 60px;
+    width: 760px;
+    /* background-color: red; */
+}
+  
+
+.title-its-me {
+    display: flex;
+    align-items: center;
+}
+
+.title-its-me h2 {
+  font-size: 77px;
+  color: black;
+  margin-right: 20px;
+}
+  
+.text-its-me {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+
+.programmer-gif {
+    width: 180px;
+}
+
+.text-its-me span {
+    margin-right: 20px;
+}
+
+.wave {
+    display: inline-block;
+    animation: wave-animation 2s infinite;
+}
+  
+@keyframes wave-animation {
+    0% { transform: rotate(0deg); }
+    10% { transform: rotate(14deg); }
+    20% { transform: rotate(-8deg); }
+    30% { transform: rotate(14deg); }
+    40% { transform: rotate(-4deg); }
+    50% { transform: rotate(10deg); }
+    60% { transform: rotate(0deg); }
+    100% { transform: rotate(0deg); }
+}
+  
+.typing-text {
+    font-size: 24px;
+    color: #555;
+    white-space: nowrap;
+    border-right: 2px solid;
+    padding-right: 2px;
+    margin-top: 40px;
+    width: 81%;
+    overflow: hidden;
+    animation: typing 8s steps(60, end), blink-caret .75s step-end infinite;
+}
+  
+@keyframes typing {
+    from { width: 0; }
+    to { width: 81%; }
+}
+  
+@keyframes blink-caret {
+    from, to { border-color: transparent; }
+    50% { border-color: black; }
+}
+  
+
+.icons-its-me {
+    display: flex;
+    justify-content: left;
+    align-items: start;
+
+}
+  
+.icons-its-me a {
+    margin-right: 25px;
+}
+
+.its-me-github-icon {
+    width: 65px;
+}
+  
+.its-me-telegram-icon {
+    width: 64px;
+}
+
+.tech-steack {
+    width: 1080px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.tech-steack h4 {
+  width: 27%;
+    font-size: 40px;
+    padding-right: 40px;
+    border-right: black 4px solid;
+}
+
+.tech-steack-icons {
+    margin-left: 40px;
+    width: 75%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+.h-title{
+    font-size: 40px;
+  }
+  
+ 
+  .word {
+    position: absolute;
+    opacity: 0;
+    font-size: 40px;
+    letter-spacing: -15px;
+  }
+  
+  .letter {
+      display: inline-block;
+      position: relative;
+      /* float: left; */
+      transform: translateZ(25px);
+      transform-origin: 50% 50% 25px;
+  }
+  
+  .letter.out {
+      transform: rotateX(90deg);
+      transition: transform 0.32s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  }
+  .letter.behind {
+      transform: rotateX(-90deg);
+  }
+  
+  .letter.in {
+      transform: rotateX(0deg);
+      transition: transform 0.38s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+  
+  .wisteria {
+      color: #ca9d49;
+  }
+  
+  .belize {
+      color: #2d88c5;
+  }
+  
+  .pomegranate {
+      color: #c0392b;
+  }
+  
+  .green {
+      color: #16a085;
+  }
+
+  .red {
+    color: rgb(141, 43, 141);
+  }
+
+  .yellow {
+    color: rgb(139, 185, 46);
+  }
+  
+  .midnight {
+      color: #2c3e50;
+  }
+  
+}
+  
+@media (min-width: 992px) and (max-width: 1199px) {
+    .top-seporator-its-me {
+        width: 100%;
+        height: 32vh;
+      }
+           
+      .down-seporator-its-me {
+        width: 100%;
+        height: 150px;
+      }
+    
+      .medium-seporator-its-me {
+        width: 100%;
+        height: 150px;
+      }
+    
+      .container-its-me {
+        display: flex;
+        align-items: start;
+        justify-content: right;
+        margin-left: none;
+        width: 892px;
+        /* background-color: blue; */
+      }
+      
+    
+    
+    .profile-pic img {
+        border-radius: 30%;
+        width: 350px;
+        height: 350px;
+        text-align: left;
+    }
+      
+    
+    .content {
+        text-align: left;
+        margin-left: 40px;
+        width: 760px;
+        /* background-color: red;  */
+    }
+      
+    
+    .title-its-me {
+        display: flex;
+        align-items: center;
+    }
+    
+    .title-its-me h2 {
+      font-size: 64px;
+      color: black;
+      margin-right: 20px;
+    }
+      
+    .text-its-me {
+        display: flex;
+        align-items: center;
+        margin-top: 35px;
+        margin-bottom: 55px;
+    }
+    
+    .programmer-gif {
+        width: 140px;
+    }
+    
+    .text-its-me span {
+        margin-right: 20px;
+    }
+    
+    .wave {
+        display: inline-block;
+        animation: wave-animation 2s infinite;
+    }
+      
+    @keyframes wave-animation {
+        0% { transform: rotate(0deg); }
+        10% { transform: rotate(14deg); }
+        20% { transform: rotate(-8deg); }
+        30% { transform: rotate(14deg); }
+        40% { transform: rotate(-4deg); }
+        50% { transform: rotate(10deg); }
+        60% { transform: rotate(0deg); }
+        100% { transform: rotate(0deg); }
+    }
+      
+
+    
+    .icons-its-me {
+        display: flex;
+        justify-content: left;
+        align-items: start;
+    
+    }
+      
+    .icons-its-me a {
+        margin-right: 25px;
+    }
+    
+    .its-me-github-icon {
+        width: 55px;
+    }
+      
+    .its-me-telegram-icon {
+        width: 54px;
+    }
+    
+    .tech-steack {
+        width: 892px;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+    }
+    
+    .tech-steack h4 {
+      width: 37%;
+        font-size: 36px;
+        padding-right: 32px;
+        border-right: black 4px solid;
+    }
+    
+    .tech-steack-icons {
+        margin-left: 32px;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .tech-icon {
+        width: 52px;
+    }
+    
+    .h-title{
+        font-size: 33px;
+      }
+      
+     
+    .word {
+        position: absolute;
+        opacity: 0;
+        font-size: 33px;
+        letter-spacing: -16px;
+    }
+      
+    .letter {
+        display: inline-block;
+        position: relative;
+        transform: translateZ(25px);
+        transform-origin: 50% 50% 25px;
+    }
+      
+    .letter.out {
+        transform: rotateX(90deg);
+        transition: transform 0.32s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    }
+
+    .letter.behind {
+        transform: rotateX(-90deg);
+    }
+      
+    .letter.in {
+        transform: rotateX(0deg);
+        transition: transform 0.38s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    }
+      
+    .wisteria {
+        color: #ca9d49;
+    }
+      
+    .belize {
+        color: #2d88c5;
+    }
+      
+    .pomegranate {
+        color: #c0392b;
+    }
+      
+    .green {
+        color: #16a085;
+    }
+    
+    .red {
+        color: rgb(141, 43, 141);
+    }
+    
+    .yellow {
+        color: rgb(139, 185, 46);
+    }
+      
+    .midnight {
+        color: #2c3e50;
+    }
+      
+
+
+}
+  
+  
+@media (min-width: 768px) and (max-width: 991px) {
+  
+.top-seporator-its-me {
+    width: 100%;
+    height: 220px;
+  }
+  
+  .down-seporator-its-me {
+    width: 100%;
+    height: 100px;
+  }
+  
+  .container-its-me {
+    width: 100%;
+  }
+    
+    
+  .profile-pic img {
+      margin-left: 0%;
+      border-radius: 30%;
+      width: 70%;
+      height: 70%;
+  }
+    
+  
+  .content {
+      text-align: left;
+      width: 100%;
+  }
+    
+  
+  .title-its-me {
+      display: flex;
+      align-items: center;
+      justify-content: left;
+      margin-top: 30px;
+      width: 100%;
+      height: auto;
+  }
+  
+  .title-its-me h2 {
+    font-size: 8vw;
+    color: black;
+    width: 70%;
+    height: 100%;
+  }
+  
+  .title-its-me img {
+    width: 30%;
+  }
+    
+  .text-its-me {
+    height: 0;
+    position: absolute;
+    top: 200px;
+  }
+  
+  .text-its-me img {
+      width: 90px; 
+      
+  }
+  
+  .wave {
+      display: inline-block;
+      animation: wave-animation 2s infinite;
+  }
+    
+  @keyframes wave-animation {
+      0% { transform: rotate(0deg); }
+      10% { transform: rotate(14deg); }
+      20% { transform: rotate(-8deg); }
+      30% { transform: rotate(14deg); }
+      40% { transform: rotate(-4deg); }
+      50% { transform: rotate(10deg); }
+      60% { transform: rotate(0deg); }
+      100% { transform: rotate(0deg); }
+  }
+    
+  .typing-text {
+      font-size: 2vh;
+      color: #555;
+      white-space: nowrap;
+      border-right: 2px solid;
+      padding-right: 2px;
+      width: 30vb;
+      /* overflow: hidden; */
+      animation: typing 6s steps(60, end), blink-caret .75s step-end infinite;
+  }
+    
+  @keyframes typing {
+      from { width: 0; }
+      to { width: 30vh; }
+  }
+    
+  @keyframes blink-caret {
+      from, to { border-color: transparent; }
+      50% { border-color: black; }
+  }
+    
+  
+  .icons-its-me {
+      margin-top: 20px;
+      margin-bottom: 30px;
+      display: flex;
+      justify-content: left;
+      align-items: start;
+  
+  }
+    
+  .icons-its-me a {
+      margin-right: 25px;
+  }
+  
+  .its-me-github-icon {
+    width: 65px;
+  }
+  
+  .its-me-telegram-icon {
+    width: 64px;
+  }
+  
+  .tech-steack {
+      font-size: 30px;
+      margin-top: 60px;
+  }
+  
+  .tech-steack h4 {
+    margin-bottom: 20px;
+    font-size: 44px;
+  }
+  
+  
+  .tech-steack-icons {
+      width: 100%;
+      display: inline;
+  }
+  
+  .tech-steack-icons img {
+    width: 23%;
+    padding: 6%;
+    
+  }
+
+
+  .h-title{
+    font-size: 0px;
+  }
+  
+  .word {
+    font-size: 0px;
+  }
+
+}
+  
+  
+@media (min-width: 576px) and (max-width: 767px) {
+  
+.top-seporator-its-me {
+    width: 100%;
+    height: 180px;
+  }
+  
+  .down-seporator-its-me {
+    width: 100%;
+    height: 100px;
+  }
+  
+  .container-its-me {
+    width: 100%;
+  }
+    
+    
+  .profile-pic img {
+      margin-left: 0%;
+      border-radius: 30%;
+      width: 95%;
+      height: 95%;
+  }
+    
+  
+  .content {
+      text-align: left;
+      width: 100%;
+  }
+    
+  
+  .title-its-me {
+      display: flex;
+      align-items: center;
+      justify-content: left;
+      margin-top: 30px;
+      width: 100%;
+      height: auto;
+  }
+  
+  .title-its-me h2 {
+    font-size: 5vh;
+    color: black;
+    width: 70%;
+    height: 100%;
+  }
+  
+  .title-its-me img {
+    width: 30%;
+  }
+    
+  .text-its-me {
+    height: 0;
+  }
+  
+  .text-its-me img {
+      width: 0; 
+      
+  }
+  
+  .wave {
+      display: inline-block;
+      animation: wave-animation 2s infinite;
+  }
+    
+  @keyframes wave-animation {
+      0% { transform: rotate(0deg); }
+      10% { transform: rotate(14deg); }
+      20% { transform: rotate(-8deg); }
+      30% { transform: rotate(14deg); }
+      40% { transform: rotate(-4deg); }
+      50% { transform: rotate(10deg); }
+      60% { transform: rotate(0deg); }
+      100% { transform: rotate(0deg); }
+  }
+    
+  .typing-text {
+      font-size: 2vh;
+      color: #555;
+      white-space: nowrap;
+      border-right: 2px solid;
+      padding-right: 2px;
+      width: 30vb;
+      /* overflow: hidden; */
+      animation: typing 6s steps(60, end), blink-caret .75s step-end infinite;
+  }
+    
+  @keyframes typing {
+      from { width: 0; }
+      to { width: 30vh; }
+  }
+    
+  @keyframes blink-caret {
+      from, to { border-color: transparent; }
+      50% { border-color: black; }
+  }
+    
+  
+  .icons-its-me {
+      margin-top: 20px;
+      margin-bottom: 30px;
+      display: flex;
+      justify-content: left;
+      align-items: start;
+  
+  }
+    
+  .icons-its-me a {
+      margin-right: 25px;
+  }
+  
+  .its-me-github-icon {
+    width: 55px;
+  }
+  
+  .its-me-telegram-icon {
+    width: 54px;
+  }
+  
+  .tech-steack {
+      width: 100%;
+      font-size: 30px;
+      margin-top: 60px;
+  }
+  
+  .tech-steack h4 {
+    margin-bottom: 20px;
+    font-size: 44px;
+  }
+  
+  
+  .tech-steack-icons {
+      width: 100%;
+      display: inline;
+  }
+  
+  .tech-steack-icons img {
+    width: 23%;
+    padding: 5%;
+    
+  }
+
+  .h-title{
+    font-size: 0px;
+  }
+  
+  .word {
+    font-size: 0px;
+  }
+
+}
+  
+  
+@media (max-width: 575px) {
+
+.top-seporator-its-me {
+  width: 100%;
+  height: 180px;
+}
+
+.down-seporator-its-me {
+  width: 100%;
+  height: 100px;
+}
+
+.container-its-me {
+  width: 100%;
+}
+  
+  
+.profile-pic img {
+    margin-left: 0%;
+    border-radius: 30%;
+    width: 95%;
+    height: 95%;
+}
+  
+
+.content {
+    text-align: left;
+    width: 100%;
+}
+  
+
+.title-its-me {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-top: 30px;
+    width: 100%;
+    height: auto;
+}
+
+.title-its-me h2 {
+  font-size: 5vh;
+  color: black;
+  width: 70%;
+  height: 100%;
+}
+
+.title-its-me img {
+  width: 30%;
+}
+  
+.text-its-me {
+  height: 0;
+}
+
+.text-its-me img {
+    width: 0; 
+    
+}
+
+.wave {
+    display: inline-block;
+    animation: wave-animation 2s infinite;
+}
+  
+@keyframes wave-animation {
+    0% { transform: rotate(0deg); }
+    10% { transform: rotate(14deg); }
+    20% { transform: rotate(-8deg); }
+    30% { transform: rotate(14deg); }
+    40% { transform: rotate(-4deg); }
+    50% { transform: rotate(10deg); }
+    60% { transform: rotate(0deg); }
+    100% { transform: rotate(0deg); }
+}
+  
+.typing-text {
+    font-size: 2vh;
+    color: #555;
+    white-space: nowrap;
+    border-right: 2px solid;
+    padding-right: 2px;
+    width: 30vb;
+    /* overflow: hidden; */
+    animation: typing 6s steps(60, end), blink-caret .75s step-end infinite;
+}
+  
+@keyframes typing {
+    from { width: 0; }
+    to { width: 30vh; }
+}
+  
+@keyframes blink-caret {
+    from, to { border-color: transparent; }
+    50% { border-color: black; }
+}
+  
+
+.icons-its-me {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: left;
+    align-items: start;
+
+}
+  
+.icons-its-me a {
+    margin-right: 25px;
+}
+
+.its-me-github-icon {
+  width: 55px;
+}
+
+.its-me-telegram-icon {
+  width: 54px;
+}
+
+.tech-steack {
+    width: 100%;
+    font-size: 30px;
+    margin-top: 60px;
+}
+
+.tech-steack h4 {
+  margin-bottom: 20px;
+}
+
+
+.tech-steack-icons {
+    width: 100%;
+    display: inline;
+}
+
+.tech-steack-icons img {
+  width: 23%;
+  padding: 5%;
+  
+}
+
+
+
+  .h-title{
+    font-size: 0px;
+  }
+  
+  .word {
+    font-size: 0px;
+  }
+}
+  
+  
+  
+  
+  
+  
+  

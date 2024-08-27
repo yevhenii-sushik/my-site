@@ -1,0 +1,398 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #5e63fe, #bd54cf);
+    color: #fff;
+}
+
+
+.logo {
+    position: absolute;
+    top: 50px;
+    left: 40px;
+}
+
+.my-name {
+    position: absolute;
+    top: 78px;
+    right: 40px;
+    font-size: 1.8em;
+} 
+
+.container {
+    text-align: center;
+}
+
+header h1 {
+    font-size: 4rem;
+    margin-bottom: 0.5rem;
+    animation: fadeInDown 1s ease-in-out;
+}
+
+header p {
+    font-size: 2.5rem;
+    margin-bottom: 4rem;
+    animation: fadeInUp 1s ease-in-out;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2.2rem;
+    margin-bottom: 3rem;
+    animation: fadeInDown 1s ease-in-out;
+  }
+  
+
+  
+.separator {
+    height: 50px; /* Высота разделительной черты */
+    width: 4px; /* Ширина разделительной черты */
+    background-color: #fdfdfd; /* Цвет черты */
+    border-radius: 50px;
+    /* border: none; */
+}
+
+
+.social-icon {
+    font-size: 3rem;
+    color: #fff;
+    text-decoration: none;
+    transition: transform 0.3s, color 0.3s;
+}
+
+.social-icon:hover {
+    transform: scale(1.2);
+    color: #c8c7c6;
+}
+
+footer p {
+    font-size: 0.9rem;
+    animation: fadeIn 1.5s ease-in-out;
+} 
+
+/* Animations */
+@keyframes fadeInDown {
+    from { opacity: 0; transform: translateY(-20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeInUp {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+
+
+/* Large desktops and laptops  */
+@media (min-width: 1200px) { 
+    /* body {
+        background-color: yellowgreen;
+    } */
+
+    .social-group {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 3.8rem;
+        margin-bottom: 0rem;
+      }
+} 
+
+/* Portrait tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) { 
+    /* body {
+        background-color: blue;
+    } */
+
+    header h1 {
+        font-size: 3rem;
+        margin-bottom: 0.5rem;
+        animation: fadeInDown 1s ease-in-out;
+    }
+    
+    header p {
+        font-size: 2.2rem;
+        margin-bottom: 4rem;
+        animation: fadeInUp 1s ease-in-out;
+    }    
+
+    .social-group {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 3.6rem;
+        margin-bottom: 0rem;
+      }
+
+}
+
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) { 
+    /* body {
+        background-color: yellow;
+    } */
+    
+    .logo {
+        position: absolute;
+        height: 70px;
+        top: 30px;
+        left: 25px;
+    }
+    
+    .my-name {
+        position: absolute;
+        top: 54px;
+        right: 30px;
+        font-size: 1.6em;
+    } 
+    
+    header h1 {
+        font-size: 2.8rem;
+        margin-bottom: 0.5rem;
+        animation: fadeInDown 1s ease-in-out;
+    }
+    
+    header p {
+        font-size: 1.8rem;
+        margin-bottom: 4rem;
+        animation: fadeInUp 1s ease-in-out;
+    }
+    
+    .social-group {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2.6rem;
+        margin-bottom: 0rem;
+      }
+      
+    .separator {
+        height: 40px; /* Высота разделительной черты */
+        width: 4px; /* Ширина разделительной черты */
+        background-color: #fdfdfd; /* Цвет черты */
+        border-radius: 50px;
+        /* border: none; */
+    }
+    
+    .social-icon {
+        font-size: 2.2rem;
+        color: #fff;
+        text-decoration: none;
+        transition: transform 0.3s, color 0.3s;
+    }
+ 
+}
+
+/* Landscape phones and portrait tablets*/
+@media (max-width: 767px) { 
+    /* body {
+        background-color: green;
+    } */
+    
+    .logo {
+        position: absolute;
+        height: 65px;
+        top: 30px;
+        left: 25px;
+    }
+    
+    .my-name {
+        position: absolute;
+        top: 50px;
+        right: 30px;
+        font-size: 1.4em;
+    } 
+    
+    
+    header h1 {
+        font-size: 2.6rem;
+        margin-bottom: 0.5rem;
+        animation: fadeInDown 1s ease-in-out;
+    }
+    
+    header p {
+        font-size: 1.6rem;
+        margin-bottom: 4rem;
+        animation: fadeInUp 1s ease-in-out;
+    }
+    
+    .social-group {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2.2rem;
+        margin-bottom: 0rem;
+      }
+      
+    .separator {
+        height: 38px; /* Высота разделительной черты */
+        width: 3px; /* Ширина разделительной черты */
+        background-color: #fdfdfd; /* Цвет черты */
+        border-radius: 50px;
+        color: rgba(255, 255, 255, 0);
+        /* border: none; */
+    }
+    
+    .social-icon {
+        font-size: 2rem;
+        color: #fff;
+        text-decoration: none;
+        transition: transform 0.3s, color 0.3s;
+    }
+}
+
+/* Intermediate breakpoints */
+@media (max-width: 650px) {
+    /* body {
+        background-color: rgb(240, 111, 133);
+    } */
+    
+    .logo {
+        position: absolute;
+        height: 50px;
+        top: 20px;
+        left: 25px;
+    }
+    
+    .my-name {
+        position: absolute;
+        top: 38px;
+        right: 30px;
+        font-size: 1em;
+    } 
+    
+    header h1 {
+        font-size: 2rem;
+        margin-top: 2.8rem;
+        margin-bottom: 0.8rem;
+        animation: fadeInDown 1s ease-in-out;
+    }
+    
+    header p {
+        font-size: 1.2rem;
+        margin-bottom: 4rem;
+        animation: fadeInUp 1s ease-in-out;
+    }
+      
+    .social-group {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+    }
+    
+    .social-icons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        margin-bottom: 80px;
+    }
+    
+    .separator {
+        height: 2px; /* Высота разделительной черты */
+        width: 250px; /* Ширина разделительной черты */
+        background-color: #fdfdfd; /* Цвет черты */
+        border-radius: 50px;
+        color: rgba(255, 255, 255, 0);
+        /* border: none; */
+    }
+    
+    .social-icon {
+        font-size: 2rem;
+        color: #fff;
+        text-decoration: none;
+        transition: transform 0.3s, color 0.3s;
+    }
+}
+   
+
+/* Landscape phones and smaller */
+@media (max-width: 480px) {
+    /* body {
+        background-color: purple;
+    } */
+
+    .logo {
+        position: absolute;
+        height: 40px;
+        top: 20px;
+        left: 15px;
+    }
+    
+    .my-name {
+        position: absolute;
+        top: 35px;
+        right: 20px;
+        font-size: 0.8em;
+    } 
+    
+    header h1 {
+        font-size: 1.6rem;
+        margin-top: 2.8rem;
+        margin-bottom: 0.8rem;
+        animation: fadeInDown 1s ease-in-out;
+    }
+    
+    header p {
+        font-size: 0.8rem;
+        margin-bottom: 4rem;
+        animation: fadeInUp 1s ease-in-out;
+    }
+      
+    .social-group {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1.4rem;
+    }
+    
+    .social-icons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        margin-bottom: 80px;
+    }
+    
+      
+    .separator {
+        height: 2px; /* Высота разделительной черты */
+        width: 220px; /* Ширина разделительной черты */
+        background-color: #fdfdfd; /* Цвет черты */
+        border-radius: 50px;
+        color: rgba(255, 255, 255, 0);
+        /* border: none; */
+    }
+    
+    .social-icon {
+        font-size: 1.8rem;
+        color: #fff;
+        text-decoration: none;
+        transition: transform 0.3s, color 0.3s;
+    }
+}
+
+
+
+
+  
+  

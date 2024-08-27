@@ -1,0 +1,152 @@
+@media (min-width: 1200px) {
+    .page-navigation-points0 {
+        width: 10px;
+        height: 10px;
+        position: relative;
+        top: -300px;
+    }
+
+    .page-navigation-points1 {
+        width: 10px;
+        height: 10px;
+        position: relative;
+        top: -130px;
+    }
+
+    .page-navigation-points2 {
+        width: 10px;
+        height: 10px;
+        position: relative;
+        top: -300px;
+    }
+
+    .page-navigation-points3 {
+        width: 10px;
+        height: 10px;
+        position: relative;
+        top: -200px;
+    }
+}
+    
+@media (min-width: 992px) and (max-width: 1199px) {
+    .page-navigation-points0 {
+        width: 10px;
+        height: 10px;
+        position: relative;
+        top: -300px;
+    }
+
+    .page-navigation-points1 {
+        width: 10px;
+        height: 10px;
+        position: relative;
+        top: -80px;
+    }
+
+    .page-navigation-points2 {
+        width: 10px;
+        height: 10px;
+        position: relative;
+        top: -200px;
+    }
+
+    .page-navigation-points3 {
+        width: 10px;
+        height: 10px;
+        position: relative;
+        top: -200px;
+    }
+}
+    
+    
+@media (min-width: 768px) and (max-width: 991px) {
+    .page-navigation-points0 {
+        width: 10px;
+        height: 10px;
+        position: relative;
+        top: -300px;
+    }
+
+    .page-navigation-points1 {
+        width: 10px;
+        height: 10px;
+        position: relative;
+        top: -80px;
+    }
+
+    .page-navigation-points2 {
+        width: 10px;
+        height: 10px;
+        position: relative;
+        top: -200px;
+    }
+
+    .page-navigation-points3 {
+        width: 10px;
+        height: 10px;
+        position: relative;
+        top: -200px;
+    }
+}
+  
+    
+@media (min-width: 576px) and (max-width: 767px) {
+    .page-navigation-points0 {
+        width: 10px;
+        height: 10px;
+        position: relative;
+        top: -300px;
+    }
+
+    .page-navigation-points1 {
+        width: 10px;
+        height: 10px;
+        position: relative;
+        top: -80px;
+    }
+
+    .page-navigation-points2 {
+        width: 10px;
+        height: 10px;
+        position: relative;
+        top: -200px;
+    }
+
+    .page-navigation-points3 {
+        width: 10px;
+        height: 10px;
+        position: relative;
+        top: -200px;
+    }
+}
+    
+    
+@media (max-width: 575px) {
+    .page-navigation-points0 {
+        width: 10px;
+        height: 10px;
+        position: relative;
+        top: -300px;
+    }
+
+    .page-navigation-points1 {
+        width: 10px;
+        height: 10px;
+        position: relative;
+        top: -80px;
+    }
+
+    .page-navigation-points2 {
+        width: 10px;
+        height: 10px;
+        position: relative;
+        top: -200px;
+    }
+
+    .page-navigation-points3 {
+        width: 10px;
+        height: 10px;
+        position: relative;
+        top: -200px;
+    }
+}

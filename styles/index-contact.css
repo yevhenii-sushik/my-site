@@ -1,0 +1,801 @@
+@media (min-width: 1200px) {
+
+  .top-seporator-contacts {
+    width: 100%;
+    height: 170px; 
+  }
+
+  .medium-seporator-contacts {
+    width: 100%;
+    height: 100px; 
+  }
+
+  .bottom-seporator-contacts {
+    width: 100%;
+    height: 150px; 
+  }
+
+  .site-block-contacts {
+    display: grid;
+    place-items: center;
+  }
+
+  #contactstitle {
+    width: 1080px;
+  } 
+
+  #contactstitlemini {
+    width: 1080px;
+  }
+
+  .contacts-sections {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1080px;
+  }
+
+  .contact-section-network {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 480px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  
+  .contacts-icon {
+    width: 70px;
+    height: auto;
+    margin: 5px;
+  }
+  
+  .contacts-title-text {
+    margin: 10px;
+    margin-left: 20px;  
+    width: 400px;
+    float: left;
+  }
+  
+  .contacts-title {
+    font-size: 29px;
+    margin-bottom: 6px;
+  }
+  
+  .contacts-text {
+    font-size: 25px;
+    color: #727171;
+  }
+  
+  .contacts-copy-button-icon {
+    width: 38px;
+    height: auto;
+  }
+
+  .contacts-pass-button-icon {
+    width: 34px;
+    height: auto;
+  }
+  
+  .telegtram-pass {
+    margin-right: 3px;
+  }
+  
+  .contacts-copy-button {
+    background-color: #ffffff00;
+    padding: 10px 5px 5px 5px;
+    border-radius: 14px;
+    border: none;
+  }
+  
+  .contacts-copy-button:hover {
+    background-color: #9593933e;
+    transition: all 0.8s ease;
+  }
+  
+  .contacts-copy-button:active {
+    background-color: #4b4a4a70;
+    transition: all 0.3s ease;
+  }
+  
+  #popup {
+    position: fixed;
+    right: -400px;
+    top: 100px;
+    text-align: center;
+    width: auto;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: white;
+    border: 1px solid rgba(214, 214, 214, 0.463);
+    box-shadow: 0px 10px 15px 1px rgba(96, 96, 96, 0.04);
+    font-size: 20px;
+    font-weight: bold;
+    transition: right 0.5s ease-in-out;
+  }
+
+  .success {
+    color: #52b755;
+  }
+
+  .error {
+    color: #f44336;
+  }
+
+  .all-social-media {
+    background-color: #ffffff00;
+    padding: 3px 15px 3px 15px;
+    border-radius: 10px;
+    font-size: 25px;
+    color: blue;
+    border: none;
+    width: 100%;
+    height: 35px;
+    margin-top: 30px;
+  }
+
+  .all-social-media:hover {
+    transition: all 0.1s ease;
+    animation: hover-all-social-media 0.3s ease;
+  }
+
+  .all-social-media:active {
+    height: 35px;
+    font-size: 23px;
+    color: rgb(4, 4, 167);
+    transition: all 0.2s;
+  }
+
+  @keyframes hover-all-social-media {
+    0% {transform: translateX(0px);}
+    20% {transform: translateX(-2px);}
+    66% {transform: translateX(15px);}
+    100% {transform: translateX(0px);}
+  }
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+  .top-seporator-contacts {
+    width: 100%;
+    height: 120px; 
+  }
+
+  .medium-seporator-contacts {
+    width: 100%;
+    height: 50px; 
+  }
+
+  .bottom-seporator-contacts {
+    width: 100%;
+    height: 120px; 
+  }
+
+
+  .site-block-contacts {
+    display: grid;
+    place-items: center;
+  }
+
+  #contactstitle {
+    width: 892px;
+  } 
+
+  #contactstitlemini {
+    width: 892px;
+  }
+
+  .contacts-sections {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 892px;
+  }
+
+  .contact-section-network {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 410px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  
+  .contacts-icon {
+    width: 60px;
+    height: auto;
+    margin: 5px;
+  }
+  
+  .contacts-title-text {
+    margin: 10px;
+    margin-left: 10px;  
+    width: 400px;
+    float: left;
+  }
+  
+  .contacts-title {
+    font-size: 25px;
+    margin-bottom: 6px;
+  }
+  
+  .contacts-text {
+    font-size: 22px;
+    color: #727171;
+  }
+  
+  .contacts-copy-button-icon {
+    width: 34px;
+    height: auto;
+  }
+
+  .contacts-pass-button-icon {
+    width: 30px;
+    height: auto;
+  }
+  
+  .telegtram-pass {
+    margin-right: 3px;
+  }
+  
+  .contacts-copy-button {
+    background-color: #ffffff00;
+    padding: 10px 5px 5px 5px;
+    border-radius: 14px;
+    border: none;
+  }
+  
+  .contacts-copy-button:hover {
+    background-color: #9593933e;
+    transition: all 0.8s ease;
+  }
+  
+  .contacts-copy-button:active {
+    background-color: #4b4a4a70;
+    transition: all 0.3s ease;
+  }
+  
+  #popup {
+    position: fixed;
+    right: -400px;
+    top: 100px;
+    text-align: center;
+    width: auto;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: white;
+    border: 1px solid rgba(214, 214, 214, 0.463);
+    box-shadow: 0px 10px 15px 1px rgba(96, 96, 96, 0.04);
+    font-size: 20px;
+    font-weight: bold;
+    transition: right 0.5s ease-in-out;
+  }
+
+  .success {
+    color: #52b755;
+  }
+
+  .error {
+    color: #f44336;
+  }
+
+  .all-social-media {
+    background-color: #ffffff00;
+    padding: 3px 15px 3px 15px;
+    border-radius: 10px;
+    font-size: 25px;
+    color: blue;
+    border: none;
+    width: 100%;
+    height: 35px;
+    margin-top: 30px;
+  }
+
+  .all-social-media:hover {
+    transition: all 0.1s ease;
+    animation: hover-all-social-media 0.3s ease;
+  }
+
+  .all-social-media:active {
+    height: 35px;
+    font-size: 23px;
+    color: rgb(4, 4, 167);
+    transition: all 0.2s;
+  }
+
+  @keyframes hover-all-social-media {
+    0% {transform: translateX(0px);}
+    20% {transform: translateX(-2px);}
+    66% {transform: translateX(15px);}
+    100% {transform: translateX(0px);}
+  }
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .top-seporator-contacts {
+    width: 100%;
+    height: 120px; 
+  }
+
+  .medium-seporator-contacts {
+    width: 100%;
+    height: 80px; 
+  }
+
+  .bottom-seporator-contacts {
+    width: 100%;
+    height: 150px; 
+  }
+
+  .site-block-contacts {
+    display: grid;
+    place-items: center;
+  }
+
+  #contactstitle {
+    width: 100%;
+  } 
+
+  #contactstitlemini {
+    width: 100%;
+  }
+
+  .contacts-sections {
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+  } 
+
+  .contact-section-network {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .contacts-icon {
+    width: 65px;
+    height: auto;
+    margin: 25px;
+  }
+  
+
+  .contacts-title-text {
+    margin: 10px;
+    width: 90%;
+  }
+  
+  .contacts-title {
+    font-size: 30px;
+    margin-bottom: 6px;
+  }
+  
+  .contacts-text {
+    font-size: 25px;
+    color: #727171;
+  }
+  
+  .contacts-pass-button-icon {
+    width: 34px;
+    height: auto;
+  }
+
+  .contacts-copy-button-icon {
+    width: 38px;
+    height: auto;
+  }
+  
+
+  .contacts-copy-button {
+    background-color: #ffffff00;
+    padding: 8px 3px 3px 3px;
+    border-radius: 10px;
+    margin-right: 50px;
+    border: none;
+  }
+  
+  .telegtram-pass {
+    margin-right: 52px;
+  }
+
+
+  .contacts-copy-button:hover {
+    background-color: #9593933e;
+    transition: all 0.8s ease;
+  }
+  
+  .contacts-copy-button:active {
+    background-color: #4b4a4a70;
+    transition: all 0.3s ease;
+  }
+
+  #popup {
+    position: fixed;
+    right: -400px;
+    top: 150px;
+    text-align: center;
+    width: auto;
+    padding: 12px;
+    border-radius: 20px;
+    background-color: white;
+    border: 1px solid rgba(214, 214, 214, 0.463);
+    box-shadow: 0px 10px 15px 1px rgba(96, 96, 96, 0.04);
+    font-size: 16px;
+    font-weight: bold;
+    transition: right 0.5s ease-in-out;
+  }
+
+  .success {
+    color: #52b755;
+  }
+
+  .error {
+    color: #f44336;
+  }
+
+  .down-seporator-contacts {
+    height: 9vh;
+  }
+
+  .all-social-media {
+    background-color: #ffffff00;
+    padding: 3px 15px 3px 15px;
+    border-radius: 10px;
+    font-size: 26px;
+    color: blue;
+    border: none;
+    width: 100%;
+    height: 35px;
+    margin-top: 30px;
+  }
+
+  .all-social-media:hover {
+    transition: all 0.1s ease;
+    animation: hover-all-social-media 0.3s ease;
+  }
+
+  .all-social-media:active {
+    height: 35px;
+    font-size: 24px;
+    color: rgb(4, 4, 167);
+    transition: all 0.2s;
+  }
+
+  @keyframes hover-all-social-media {
+    0% {transform: translateX(0px);}
+    20% {transform: translateX(-2px);}
+    66% {transform: translateX(15px);}
+    100% {transform: translateX(0px);}
+  }
+
+}
+
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .top-seporator-contacts {
+    width: 100%;
+    height: 120px; 
+  }
+
+  .medium-seporator-contacts {
+    width: 100%;
+    height: 80px; 
+  }
+
+  .bottom-seporator-contacts {
+    width: 100%;
+    height: 150px; 
+  }
+
+  .site-block-contacts {
+    display: grid;
+    place-items: center;
+  }
+
+  #contactstitle {
+    width: 100%;
+  } 
+
+  #contactstitlemini {
+    width: 100%;
+  }
+
+  .contacts-sections {
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+  } 
+
+  .contact-section-network {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .contacts-icon {
+    width: 60px;
+    height: auto;
+    margin: 25px;
+  }
+  
+
+  .contacts-title-text {
+    margin: 10px;
+    width: 90%;
+  }
+  
+  .contacts-title {
+    font-size: 29px;
+    margin-bottom: 6px;
+  }
+  
+  .contacts-text {
+    font-size: 24px;
+    color: #727171;
+  }
+  
+  .contacts-pass-button-icon {
+    width: 30px;
+    height: auto;
+  }
+
+  .contacts-copy-button-icon {
+    width: 34px;
+    height: auto;
+  }
+  
+
+  .contacts-copy-button {
+    background-color: #ffffff00;
+    padding: 8px 3px 3px 3px;
+    border-radius: 10px;
+    margin-right: 30px;
+    border: none;
+  }
+  
+  .telegtram-pass {
+    margin-right: 32px;
+  }
+
+
+  .contacts-copy-button:hover {
+    background-color: #9593933e;
+    transition: all 0.8s ease;
+  }
+  
+  .contacts-copy-button:active {
+    background-color: #4b4a4a70;
+    transition: all 0.3s ease;
+  }
+
+  #popup {
+    position: fixed;
+    right: -400px;
+    top: 150px;
+    text-align: center;
+    width: auto;
+    padding: 12px;
+    border-radius: 20px;
+    background-color: white;
+    border: 1px solid rgba(214, 214, 214, 0.463);
+    box-shadow: 0px 10px 15px 1px rgba(96, 96, 96, 0.04);
+    font-size: 16px;
+    font-weight: bold;
+    transition: right 0.5s ease-in-out;
+  }
+
+  .success {
+    color: #52b755;
+  }
+
+  .error {
+    color: #f44336;
+  }
+
+  .down-seporator-contacts {
+    height: 9vh;
+  }
+
+  .all-social-media {
+    background-color: #ffffff00;
+    padding: 3px 15px 3px 15px;
+    border-radius: 10px;
+    font-size: 22px;
+    color: blue;
+    border: none;
+    width: 100%;
+    height: 30px;
+    margin-top: 30px;
+  }
+
+  .all-social-media:hover {
+    transition: all 0.1s ease;
+    animation: hover-all-social-media 0.3s ease;
+  }
+
+  .all-social-media:active {
+    height: 30px;
+    font-size: 20px;
+    color: rgb(4, 4, 167);
+    transition: all 0.2s;
+  }
+
+  @keyframes hover-all-social-media {
+    0% {transform: translateX(0px);}
+    20% {transform: translateX(-2px);}
+    66% {transform: translateX(15px);}
+    100% {transform: translateX(0px);}
+  }
+
+}
+
+
+@media (max-width: 575px) {
+
+  .top-seporator-contacts {
+    width: 100%;
+    height: 100px; 
+  }
+
+  .medium-seporator-contacts {
+    width: 100%;
+    height: 60px; 
+  }
+
+  .bottom-seporator-contacts {
+    width: 100%;
+    height: 70px; 
+  }
+
+
+  .site-block-contacts {
+    display: grid;
+    place-items: center;
+    width: 90%;
+  }
+
+  #contactstitle {
+    width: 100%;
+  } 
+
+  #contactstitlemini {
+    width: 100%;
+  }
+
+  .contacts-sections {
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+  } 
+
+  .contact-section-network {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .contacts-icon {
+    width: 40px;
+    height: auto;
+    margin: 5px;
+  }
+  
+
+  .contacts-title-text {
+    margin: 10px;
+    width: 90%;
+  }
+  
+  .contacts-title {
+    font-size: 20px;
+    margin-bottom: 6px;
+  }
+  
+  .contacts-text {
+    font-size: 15px;
+    color: #727171;
+  }
+  
+  .contacts-pass-button-icon {
+    width: 24px;
+    height: auto;
+  }
+
+  .contacts-copy-button-icon {
+    width: 28px;
+    height: auto;
+  }
+
+  .contacts-copy-button {
+    background-color: #ffffff00;
+    padding: 8px 3px 3px 3px;
+    border-radius: 10px;
+    margin-right: 25px;
+    border: none;
+  }
+  
+  .telegtram-pass {
+    margin-right: 27px;
+  }
+
+
+  .contacts-copy-button:hover {
+    background-color: #9593933e;
+    transition: all 0.8s ease;
+  }
+  
+  .contacts-copy-button:active {
+    background-color: #4b4a4a70;
+    transition: all 0.3s ease;
+  }
+
+  #popup {
+    position: fixed;
+    right: -400px;
+    top: 150px;
+    text-align: center;
+    width: auto;
+    padding: 12px;
+    border-radius: 20px;
+    background-color: white;
+    border: 1px solid rgba(214, 214, 214, 0.463);
+    box-shadow: 0px 10px 15px 1px rgba(96, 96, 96, 0.04);
+    font-size: 16px;
+    font-weight: bold;
+    transition: right 0.5s ease-in-out;
+  }
+
+  .success {
+    color: #52b755;
+  }
+
+  .error {
+    color: #f44336;
+  }
+
+  .down-seporator-contacts {
+    height: 9vh;
+  }
+
+  .all-social-media {
+    background-color: #ffffff00;
+    padding: 3px 15px 3px 15px;
+    border-radius: 10px;
+    font-size: 20px;
+    color: blue;
+    border: none;
+    width: 100%;
+    height: 28px;
+    margin-top: 30px;
+  }
+
+  .all-social-media:hover {
+    transition: all 0.1s ease;
+    animation: hover-all-social-media 0.3s ease;
+  }
+
+  .all-social-media:active {
+    height: 28px;
+    font-size: 18px;
+    color: rgb(4, 4, 167);
+    transition: all 0.2s;
+  }
+
+  @keyframes hover-all-social-media {
+    0% {transform: translateX(0px);}
+    20% {transform: translateX(-2px);}
+    66% {transform: translateX(15px);}
+    100% {transform: translateX(0px);}
+  }
+
+}
+
+
+
+
+
+
